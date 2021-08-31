@@ -4,6 +4,17 @@
 \usepackage{url}
 \usepackage{multicol}
 \usepackage[bottom=2cm,top=2cm,left=2cm,right=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage[dvipsnames]{xcolor}
+%\usepackage{subcaption}
+
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{subfigure}
 
 \title{Fundamentos de Astronomia\\
     \large \texttt{[AGA0215]}\\
@@ -114,6 +125,254 @@ e lentes gravitacionais passam a ser possíveis.
 
 A mecânica quântica desvendou o mundo sub-atômico e trouxe uma visão
 dos eventos nas primeiras frações de segundo do universo.
+
+\section{O Céu Aparente}
+
+Céu aparente: observação dos astros a partir da Terra.
+
+Civilizações Antigas (Babilônios, Egípcios e Gregos) tentavam 
+entender como o movimento dos astros poderia influenciar a vida 
+na Terra, eles consideram os planetas como Deuses e desenvolveram
+a astrologia, tentavam identificar o que aconteceria na Terra a partir
+do movimento dos astros no céu.
+
+Já os \textbf{romanos} construíram as fundações do que conhecemos 
+hoje em dia como \textbf{Astronomia} (os gregos também tinham observações
+mais detalhadas).
+
+O pensamento geocêntrico predominou até o Renascimento
+
+Adotaremos o ponto de vista geocêntrico nessa aula...
+
+O céu que nos cerca não é imóvel
+
+Movimento aparente do sol: nasce e se põe $\rightarrow$ sombra do 
+guarda sol se movendo
+
+\textbf{Movimento aparente:} durante a noite as estrelas nascem no leste do
+horizonte, cruzam o céu e se põe no lado oeste.
+
+\textbf{Esfera celeste:} esfera de raio arbitrário (pode passar por
+qualquer astro) concêntrica na 
+Terra que facilita compreender o movimento dos astros 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{imagens/esfera_celeste.png}
+    \caption{Exemplo de esfera celeste}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Zênite:} ponto mais alto na esfera celeste (direção vertical)
+    \item \textbf{Nadir:} oposto ao Zênite 
+    \item \textbf{Horizonte:} divisão entre a terra (plana localmente) e o céu  
+    \item \textbf{Meridiano local:} de um polo ao outro passando pelo Zênite
+\end{itemize}
+
+Nos polos, conseguimos ver a tragetória dos astros na horizontal, no
+Equador é perpendicular. Já entre os polos, os trajetos são inclinados na 
+direção ao polo oposto
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{imagens/esfera_det.png}
+    \caption{Detalhamento da esfera celeste}
+\end{figure}
+
+Sol nasce na direção leste, mas o local exato varia ao longo do ano 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{imagens/mov_sol.png}
+    \caption{O sol se move para o norte ou sul dependendo da época do ano}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{imagens/cruzeiro_sul.png}
+    \caption{Cruzeiro do Sul: constelação circunpolar cujo eixo maior (ponra da cruz)
+    aponta da direção do polo celeste sul}
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{imagens/cardeais.png}
+    \caption{Forma alternativa de verificar os pontos cardeais}
+\end{figure}
+
+Os gregos diferenciavam os astros em estelas fixas e errantes (ou planetas), que se 
+moviam) $\leftarrow$ trajetória aparente eclíptica
+
+\subsection{Modelo Geocêntrico}
+
+Hiparco fez o primeiro catálogo estelar, com a posição do céu dos 
+objetos (\textbf{coordenadas celestes}), além disso, dividiu estelas 
+em magnitude (pelo brilho aparente)
+
+Hiparco percebeu que a posição no céu do polo norte mudou em 150 anos
+e a direção aparente da rotação do céu pareceu mudar também.
+
+A direção do eixo da Terra realemnte muda lentamente (movimento de 
+precessão)
+
+Ptolomeu fez um modelo do sistema solar geocêntrico que pendurou 
+por mais de 1000 anos
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{imagens/modelo_ptolom.png}
+    \caption{Modelo do Sistema Solar de Ptolomeu}
+\end{figure}
+
+Dificuldade: explicar movimento "não esperado" dos planetas, que 
+hoje sabemos ser resultante da combinação dos movimentos deles com o 
+da Terra 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{imagens/mov_marte.png}
+    \caption{Movimento retrógrado de marte}
+\end{figure}
+
+O movimento retrógrado é tranquilo de explicar com o movimento da Terra
+mas Ptolomeu partia do princípio que a Terra era estática e que o 
+movimento dos astros era circular (gregos)
+
+Ele propôs uma estrutura complexa de círculos movendo-se no interior
+de outros círculos, introduzindo o conceito de \textbf{epiciclos} (movimento 
+retrógrado), \textbf{deferente} e \textbf{equante} (variações de 
+velocidade)
+
+\subsection{Renascimento da Astronomia}
+
+Com a expansão do Islamismo, a astronomia renasceu através da cultura
+árabe  e judaica que preservavam ideias astronômica dos gregos 
+antigos
+
+Uma das ideias mais importantes 
+do renascimento foi retirar a Terra do centro do Universo. Copérnico
+concluiu que a Terra é um planeta que gira em torno do Sol (assim 
+como os outros planetas). Somente a Lua circundava a Terra. 
+
+\subsection{Modelo Heliocêntrico}
+
+\begin{itemize}
+    \item sol posicionado no centro
+    \item Terra é um planeta que gira ao redor do sol
+    \item ordem dos planetas desde o Sol: Mercúrio, Vênus, Terra, Marte, Júpiter e Saturno
+    \item mais próximo o planeta estiver do Sol maior será sua velocidade orbital]
+    \item Esse novo modelo explicava o movimento retrógrado !
+\end{itemize}
+
+\subsection{Observatório de Tycho Brahe}
+
+Tycho detectou variações no movimento dos planetas daqueles 
+previstos pelo modelo ptolomaico, mas tentava explicar com o 
+geocentrismo.
+Todo seu legado observacional foi herdado por  Kepler, logo após 
+a sua morte.
+
+\subsection{Galileu Galilei}
+
+Descobriu que
+
+\begin{itemize}
+    \item existiam muitas estrelas fracas que só podiam ser vistas com 
+    o telescópio
+    \item conglomerados estelares
+    \item Via Láctea é um “amontoado” de estrelas
+    \item Quatro satélites de Júpiter e determinou seus períodos 
+    (provando que nem tudo girava em torno da Terra)
+    \item As fases de Vênus (não pode ser explicada por nenhum 
+    modelo no qual Vênus circunda a Terra)
+\end{itemize}
+
+\subsection{Kepler}
+
+Leis do movimento planetário descobertas por Kepler:
+
+\begin{itemize}
+    \item as órbitas de todos os planetas são elípticos
+    \item linha que liga o planeta ao sol percorre áreas iguais em 
+    tempo iguais
+    \item Os quadrados dos períodos de translação dos planetas 
+    são proporcionais aos cubos dos semi-eixos maiores de suas órbitas
+\end{itemize}
+
+\subsection{Newton}
+
+Explicou a razão para os planetas seguirem as leias do movimento 
+delineadas por Galileu, Tycho e Kepler
+
+\begin{itemize}
+    \item [I] Todo corpo continua em seu estado de repouso ou de 
+    movimento uniforme em uma linha reta, a menos que seja forçado 
+    a mudar aquele estado por forças aplicadas sobre ele (lei da inércia).
+    \item [II] A mudança de movimento é proporcional à força motora 
+    imprimida, e é produzida na direção de linha reta na qual aquela 
+    força é imprimida. $F = m a$
+    \item [III] A toda ação há sempre uma reação oposta e de igual 
+    intensidade: ou as ações mútuas de dois corpos um sobre o outro 
+    são sempre iguais e dirigidas em direções opostas. 
+\end{itemize}
+
+\subsection{Lei da Gravidade}
+
+Então porque o movimento dos planetas é descrito por elipses ?
+
+\textbf{Hipótese de Newton:} A gravidade não é uma força limitada 
+somente ao nosso planeta. Ela é a força universal de atração entre 
+todos os corpos – atração universal entre os corpos. 
+
+$$F_G = \frac{GM_1M_2}{R^2}$$
+
+Newton foi capaz de expressar matematicamente que as únicas órbitas 
+permitidas para os planetas seriam seções cônicas, dentre as quais 
+a elipse descrita pela lei de Kepler
+
+\subsection{Movimento orbital e a massa}
+
+Com a gravitação de NEwton deduzimos a 3ª Lei de Kepler:
+
+$$\rho = D^3 \frac{4\pi^2}{GM_1M_2}$$
+
+Aliás, Netuno foi descoberto ao observar uma irregularidade no
+movimento previsto para Urano
+
+\subsection{Movimento aparente}
+
+\textbf{Eclíptica:} caminho aparente percorrido pelo Sol a cada 
+ano, projetado na esfera celeste (Sol gradativamente muda sua 
+posição na esfera celeste, movendo-se a cada dia 1° para leste 
+em relação as outras estrelas da esfera celeste –  esse 
+movimento completo leva o período de um ano)
+
+Asterismos: São grupos de estrelas no céu que formam uma 
+figura que seja facilmente identificável
+
+\subsection{Medidas de Tempo}
+
+As medidas do tempo e os calendários são baseados nos 
+movimentos de rotação e translação da Terra e translação da Lua
+Plano de referência é o Meridiano do observador !
+(plano que passa pelo zênite local e pelos polos N e S geográficos 
+e celestes.)
+
+\section{Dia e Noite}
+
+Movimento aparente de leste a oeste do sol se deve ao movimento de 
+rotação de oeste a leste da terra em seu eixo.
+
+Estações do ano estão relacionadas à inclinação do eixo da terra
+em relação ao plano do sol, já que a incidência de raios de luz 
+aumenta (ou diminui)
+
+Dezembro: verão no hemisfério sul, no polo sul sol não se põe e 
+Terra se encontra no periélio (ponto mais próximo do sol)
+
 
 
 \end{document}
